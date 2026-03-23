@@ -7,6 +7,7 @@ class Hyalo < Formula
   desc "CLI for exploring and managing Markdown knowledge bases"
   homepage "https://github.com/ractive/hyalo"
   version "0.0.0"
+  license "MIT"
 
   on_macos do
     on_arm do

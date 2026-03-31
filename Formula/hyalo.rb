@@ -12,19 +12,19 @@ class Hyalo < Formula
   on_macos do
     on_arm do
       url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-aarch64-apple-darwin.tar.gz"
-      sha256 "6e708ffd3e78f4d75f5f6b49c7f1da56c4a37cbfd75ff4c98d2bd0f16c11cdc6"
+      sha256 "b7b554d60974ca842dee52674df34f6bb5c5221ef5f6e8bc4fbaec51f92ca5a3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "05019276366b730d42534449bf333d53df5ebfc4dbec8d8cb4e16563a5e4feb9"
+      sha256 "f1ac7bee2b12b030cb7ae309e23cf97e64e8aad89b0c5cf83f339835617759f5"
     end
 
     on_intel do
       url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "49b980a6743876beac57ff0ebbd2813913443c9f28ca0ce93059d3fa215f9c33"
+      sha256 "3346444acaa4ec74dbcee8d6b897ada8c365226623397d9af1a2b6ae34118701"
     end
   end
 

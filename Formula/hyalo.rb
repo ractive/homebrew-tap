@@ -6,25 +6,25 @@
 class Hyalo < Formula
   desc "CLI for exploring and managing Markdown knowledge bases"
   homepage "https://github.com/ractive/hyalo"
-  version "0.13.2"
+  version "0.14.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-aarch64-apple-darwin.tar.gz"
-      sha256 "4fff5cd9a8c50e518eaafcbfed7784c9f0f5e2b8f409d3761480d38db9dd0ab9"
+      sha256 "57d3c3941be856ff7608c53385444430c54195524a560a7bd74c305f3430792e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6382135f740897f6d38f73e90e2caac9b188eb866346c65b134906cd26916b82"
+      sha256 "cd950af81d2ee5983b02b6f521fbe287b425dfcbbb881456ecd317c97f580e56"
     end
 
     on_intel do
       url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "88ffa52fb2c882dc28b98e4aa9a15697847a5ff3edd44bb877ff9fbdb46a470b"
+      sha256 "965d08b6052eda6883e07063e0a1dd17248e67b5ca1988e2d90ac71e085c2a88"
     end
   end
 

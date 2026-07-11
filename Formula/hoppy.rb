@@ -1,39 +1,35 @@
 # typed: false
 # frozen_string_literal: true
-
-# Homebrew formula for hoppy — a CLI for bunny.net cloud and edge services.
+#
+# Homebrew formula for hoppy.
 # Auto-updated by the release workflow in ractive/hoppy.
 class Hoppy < Formula
   desc "CLI for bunny.net cloud and edge services"
   homepage "https://github.com/ractive/hoppy"
-  version "0.3.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "5721cb27c1c644b6d719d11bd879f5e79b2b39f5a055168091a56e6dc1795a4f"
+      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f95e55f6fe3de5c0b04681230baa6696159d8ca3647770b244e4d8f3d0382a1f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2904dca1e8f53a081636ac282473ea578d737406cdd4f6d8731bae16d2c72c7d"
+      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.5.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6d884f212e298a93b502bceae0ebfa9cad24e027e1da0ee472c682e3e743cf99"
     end
 
     on_intel do
-      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0e2593ab34e4ad1971c80b8becf4162032de5f5c7ac2b291b7fada1aa839f549"
+      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "35696ff283315099c99378e3e3b49af05c05561dfb699809e762f1ecd52abf35"
     end
   end
 
   def install
     bin.install "hoppy"
-    bash_completion.install "completions/hoppy.bash" => "hoppy"
-    zsh_completion.install "completions/_hoppy"
-    fish_completion.install "completions/hoppy.fish"
-    man1.install Dir["man/*.1"]
   end
 
   def caveats
@@ -41,7 +37,8 @@ class Hoppy < Formula
       hoppy container logs requires bore for automatic tunnel setup:
         cargo install bore-cli
         brew install bore-cli
-      This is optional — see  for tunnel alternatives.
+      This is optional — see `hoppy container logs --help` for tunnel alternatives.
+      
     EOS
   end
 

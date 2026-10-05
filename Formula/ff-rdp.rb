@@ -6,25 +6,25 @@
 class FfRdp < Formula
   desc "CLI for Firefox Remote Debugging Protocol"
   homepage "https://github.com/ractive/ff-rdp"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/ff-rdp/releases/download/v#{version}/ff-rdp-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "74e0e000f768e568b8f3d68ca9211b5758feb5ae94b0f35004626bffad41b252"
+      url "https://github.com/ractive/ff-rdp/releases/download/v#{version}/ff-rdp-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ebb28e9baac2c38fda7e68c9655431ac6e6976717314339ebfc4e657ed9986e5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/ff-rdp/releases/download/v#{version}/ff-rdp-v0.4.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "05b34d93a02fb26d1ad701bdfbcdade3cbc9312ce467502007e376af968cfaec"
+      url "https://github.com/ractive/ff-rdp/releases/download/v#{version}/ff-rdp-v0.4.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "20bbc313d906e7948da6441b792601fd3ec85ad2bfd907917a5f8957de73b8f1"
     end
 
     on_intel do
-      url "https://github.com/ractive/ff-rdp/releases/download/v#{version}/ff-rdp-v0.4.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "8ed96f3bc33002f5278802fb2e961696194ac9340eb295a867a9049fec420656"
+      url "https://github.com/ractive/ff-rdp/releases/download/v#{version}/ff-rdp-v0.4.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "73e3e881a8aec62b3d10d5956051179389f5ad5d84ac748b12ba211bde2b9ea8"
     end
   end
 

@@ -6,25 +6,25 @@
 class Hptx < Formula
   desc "hptx: transfer files between HP 48/49 calculators and a computer over serial"
   homepage "https://github.com/ractive/hptx"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/hptx/releases/download/v#{version}/hptx-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "cdcce6af700091eebb9791e07d03a8eccf83dc0b0ca647a91d6e78ac9e506a9e"
+      url "https://github.com/ractive/hptx/releases/download/v#{version}/hptx-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "117a22753650c468da5643f21f1cd221cc8f9e056c20a408b240e2f07d44cbf4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/hptx/releases/download/v#{version}/hptx-v0.1.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d53f0817e0a61dfd01138ab6884392de73e9c8e560339d184ebc6799f169cb59"
+      url "https://github.com/ractive/hptx/releases/download/v#{version}/hptx-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4bab22a8cb292f1b9455f8e687a358d4b73c4867b5ad93245fd238fde788f41c"
     end
 
     on_intel do
-      url "https://github.com/ractive/hptx/releases/download/v#{version}/hptx-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "1572f848f6014428647d30ba3ed948e3cb5ee79ea233ec13ddbf3e5c58faa496"
+      url "https://github.com/ractive/hptx/releases/download/v#{version}/hptx-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "290ef2e8cba39dd14a4f0b44e55b499060740cb8a668f75325e6cb0f41228fa4"
     end
   end
 

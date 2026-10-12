@@ -6,25 +6,25 @@
 class Saturnus < Formula
   desc "Command-line front end of the saturnus emulator: run ROMs headless, script keys, dump screens, serve the serial port and the control API"
   homepage "https://github.com/ractive/saturnus"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "04efa8ae88e5c4612f08987ad2b1fba074bfc45f1174da4671f0cb6b2aa4beaf"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5fb61d0fda8df877c10b277c27a9456ae326072022279730af2c3e5907cf716a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "20ddcb91dc7f8da93b69e721ea08febdb3d8d576714357b3da71a8151844c3ca"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "92b6177d54fd2dfd89c327d653b50476aae9eb7cf0864bf2b712b25b52104e1c"
     end
 
     on_intel do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6f75d6c44193981540320f93246af89f3584a5025263ce2bf820070859de2e40"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ba4052123d7dcb2e2cacf2d8ccb816f9a029c866658a3e1b373f033219aa22b6"
     end
   end
 

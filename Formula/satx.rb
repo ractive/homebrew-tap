@@ -6,25 +6,25 @@
 class Satx < Formula
   desc "satx: transfer files between HP 48/49 calculators and a computer over serial"
   homepage "https://github.com/ractive/saturnus"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/satx-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bd58384268e6786fd83c7f1db0408131be15460cc39a1eddd5432bbe7abb5df4"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/satx-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e7fb157144a92dd4ecd53f4f124e01928d3a10a87e0e99adc407a7a08e3a16f9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/satx-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0f01b796bca7f87adea393a252cf4281f28a6094eea5eac7b146d6b57f7863c1"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/satx-v0.3.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "b2698cdf9c284a856414479a8cb34d73171bafd045520b3bf61ea7e8aa0e3e7b"
     end
 
     on_intel do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/satx-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d8f2d3eff96570e92edd9069351c995c283d269a459bae8c6781ba50d0cf5fec"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/satx-v0.3.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "ea420cd305d32919fdc8294912cbb327ebb8744fb15896b6beaa1bf4b3fef32d"
     end
   end
 

@@ -1,14 +1,14 @@
 # Template for the cask in ractive/homebrew-tap (Casks/saturnus-app.rb).
-# desktop.yml's cask job fills in 0.4.0 and 3a28c1b4c9db5a63e71d6c99fe2d640b09307868ec7508a81b4e9d1f7f247d80 for a signed and
+# desktop.yml's cask job fills in 0.5.0 and 5de48b7307aae79f80c3b5b2a22a0a0c1c010d3f81d602ad448ebb6a393c2cd1 for a signed and
 # notarised release and pushes the result; edit this file, not the tap's.
 cask "saturnus-app" do
-  version "0.4.0"
-  sha256 "3a28c1b4c9db5a63e71d6c99fe2d640b09307868ec7508a81b4e9d1f7f247d80"
+  version "0.5.0"
+  sha256 "5de48b7307aae79f80c3b5b2a22a0a0c1c010d3f81d602ad448ebb6a393c2cd1"
 
   url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus_#{version}_aarch64.dmg",
       verified: "github.com/ractive/saturnus/"
   name "saturnus"
-  desc "Emulator of the HP 48SX, 48GX, 49G, 38G, 39G, 40G, 42S, 27S, 17BII, 17B and 28S calculators"
+  desc "Emulator of the HP 48SX, 48GX, 49G, 38G, 39G, 40G, 42S, 27S, 17BII, 17B, 28S and 19BII calculators"
   homepage "https://ractive.ch/saturnus/"
 
   livecheck do

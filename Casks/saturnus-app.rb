@@ -1,9 +1,9 @@
 # Template for the cask in ractive/homebrew-tap (Casks/saturnus-app.rb).
-# desktop.yml's cask job fills in 0.5.0 and 5de48b7307aae79f80c3b5b2a22a0a0c1c010d3f81d602ad448ebb6a393c2cd1 for a signed and
+# desktop.yml's cask job fills in 0.6.0 and 533226145a96df7a656f9fe207c7e370de7652d7851f948775e51f5cba02147e for a signed and
 # notarised release and pushes the result; edit this file, not the tap's.
 cask "saturnus-app" do
-  version "0.5.0"
-  sha256 "5de48b7307aae79f80c3b5b2a22a0a0c1c010d3f81d602ad448ebb6a393c2cd1"
+  version "0.6.0"
+  sha256 "533226145a96df7a656f9fe207c7e370de7652d7851f948775e51f5cba02147e"
 
   url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus_#{version}_aarch64.dmg",
       verified: "github.com/ractive/saturnus/"

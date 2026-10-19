@@ -4,27 +4,27 @@
 # Homebrew formula for saturnus.
 # Auto-updated by the release workflow in ractive/saturnus.
 class Saturnus < Formula
-  desc "Command-line front end of the saturnus emulator: run ROMs headless, script keys, dump screens, serve the serial port and the control API"
+  desc "The saturnus emulator of HP calculators on the command line: run ROMs, play key scripts, save screens, serve the serial port and the control API"
   homepage "https://github.com/ractive/saturnus"
-  version "0.7.0"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "b714d06945695202158e22ad28bab14003a85c91e2767b994e55b2128fdfab88"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.8.0-aarch64-apple-darwin.tar.gz"
+      sha256 "4247e024f6cd7276b49e9db10b1bfe28faa5f5830fb1c4a6127799fdf244aa25"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.7.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "cc2058d2d5202d6dae489d3e8aa355a5baafd452d8829505d0a36c7c5b42eb32"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.8.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0f0a42196fe050156543b7b6fdd3cf0b5a7c3483347bc844bdb128aae8b6bf80"
     end
 
     on_intel do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4c2243af8a272d72296bfa8f2b6ede5cce16a374ac1d08fa57f1e94854e6c4af"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.8.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "36d02169b28feca1c81b97810cd3cb943b5dba3b2ce8c467518a3439aa763737"
     end
   end
 

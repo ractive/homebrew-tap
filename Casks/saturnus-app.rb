@@ -2,12 +2,12 @@
 # desktop.yml's cask job fills in the version and the dmg's SHA-256 for a
 # signed and notarised release and pushes the result; edit this file, not the tap's.
 cask "saturnus-app" do
-  version "0.7.0"
-  sha256 "f3819aeaa7798a3f71470b81159671d83e4895d7d62a795a543635df2eae8c89"
+  version "0.8.0"
+  sha256 "336a43c54642bab7e71b5ab461f9a6de9debbe1d1243f8671d57acd242afb873"
 
   url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus_#{version}_aarch64.dmg"
   name "saturnus"
-  desc "Emulator of the HP 48SX, 48GX, 49G, 38G, 39G, 40G, 42S, 27S, 17BII, 17B, 28S and 19BII calculators"
+  desc "Emulator of the HP 48, 49, 38G, 39G, 40G, 42S, 27S, 17B, 17BII, 28S and 19BII"
   homepage "https://ractive.ch/saturnus/"
 
   livecheck do

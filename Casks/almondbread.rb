@@ -2,8 +2,8 @@
 # .github/workflows/cask.yml fills in the version and the .dmg checksum for a signed and notarised
 # release and pushes the result; edit this file, not the tap's.
 cask "almondbread" do
-  version "0.2.1"
-  sha256 "bba02f2464ace907bb9cd4b98c137564d173cdfe800ffca4e64d85778b6527dd"
+  version "0.2.2"
+  sha256 "89ac90cf5a113971d5e72d731c7b34eddbdc862627b9ebf23013ceafd34dcb99"
 
   url "https://github.com/ractive/almondbread/releases/download/v#{version}/almondbread_#{version}_aarch64.dmg"
   name "Almondbread"

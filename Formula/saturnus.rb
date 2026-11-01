@@ -6,25 +6,25 @@
 class Saturnus < Formula
   desc "The saturnus emulator of HP calculators on the command line: run ROMs, play key scripts, save screens, serve the serial port and the control API"
   homepage "https://github.com/ractive/saturnus"
-  version "0.10.1"
+  version "0.10.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.10.1-aarch64-apple-darwin.tar.gz"
-      sha256 "6773f5fc79cc0d0e4938f76731494cc4a93bb67e0a90b85e6f42a00e030acccd"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.10.2-aarch64-apple-darwin.tar.gz"
+      sha256 "d5bb5ec2dacf22e944bafe1b359bae480e80ab7b8dd613a9a892f07fe464ce06"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.10.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b42440f98e0e6d00eecf3e781fbaefb581a534f8cebb258104356788afa0561e"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.10.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7e3c1308edde2f38cacdc6ffc66d918e28c2ab63b7543dacc430f037bee471d2"
     end
 
     on_intel do
-      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.10.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4d67da0018ee54ca82a9017f0dc118909fb3f5f82820feb4c486561aaaccc331"
+      url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus-v0.10.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "528a1034611c4e8da096e7c0feb4c6c9814b20b1237888437ede2949ebdee024"
     end
   end
 

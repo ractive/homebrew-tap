@@ -6,25 +6,25 @@
 class Hoppy < Formula
   desc "CLI for bunny.net cloud and edge services"
   homepage "https://github.com/ractive/hoppy"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "05c2330b47ca0b32652ebcb2381cf5bfe0dbde22ab4c0941e234477910145f22"
+      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "937338ac7f57308d3345f05bc8abd8369a34eb8a6e0c6364c124bad94742f50b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.9.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "1a08e7df07cc7182c7b7474c902f446621fdae0c9656d7b7e4911a57dd7efe9b"
+      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.10.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ca14ad92f8efff132c15fb296a4bbbffd7e06185582e6cf331f30e30becb406f"
     end
 
     on_intel do
-      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2731d763612bb2389093b2623bf15d5c4c7d703461fdb1eae969be7b34fb3d16"
+      url "https://github.com/ractive/hoppy/releases/download/v#{version}/hoppy-v0.10.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "b071df6f6f044b81ea8cd144ad2905b85d62168bbfc1ca048fe25fd437441e58"
     end
   end
 

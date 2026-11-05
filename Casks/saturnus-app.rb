@@ -2,8 +2,8 @@
 # desktop.yml's cask job fills in the version and the dmg's SHA-256 for a
 # signed and notarised release and pushes the result; edit this file, not the tap's.
 cask "saturnus-app" do
-  version "0.10.2"
-  sha256 "32dfcb00909a267c2076445cfce5ca9e0edc3088e736b1b2189c9a86ed045aee"
+  version "0.10.3"
+  sha256 "f0761870eae21c773dcfadf6f26e60bdc549154116637e82e76f512247de7056"
 
   url "https://github.com/ractive/saturnus/releases/download/v#{version}/saturnus_#{version}_aarch64.dmg"
   name "saturnus"

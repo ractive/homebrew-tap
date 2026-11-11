@@ -6,25 +6,25 @@
 class Hyalo < Formula
   desc "CLI for exploring and managing Markdown knowledge bases with YAML frontmatter"
   homepage "https://github.com/ractive/hyalo"
-  version "0.26.0"
+  version "0.26.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-v0.26.0-aarch64-apple-darwin.tar.gz"
-      sha256 "a60392cfb3aef6f86b8cd0f8e53ab5078bdfe42c99f9a22aa4ae0a45c6068d0f"
+      url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-v0.26.1-aarch64-apple-darwin.tar.gz"
+      sha256 "18a74390f341d91b09b809e1addd234f073533ec5d15706a7b2d85ee3ab3122b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-v0.26.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "13c07678ee465d0806a039be673ab3af4ec584c86f6c837b867ffecf3b0846f5"
+      url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-v0.26.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7b9203475df0f5229907c1c61a6acf9eb91397860b47649f678f2ff73b946639"
     end
 
     on_intel do
-      url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-v0.26.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "fbd8204fd577b22b9560acebe9fb4a80cc9cabfcb180199215e98d1ec0825ecc"
+      url "https://github.com/ractive/hyalo/releases/download/v#{version}/hyalo-v0.26.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "abd2beee57cdd36df414a59bb2750af675dd294dba922ff2dd3fe4b612467792"
     end
   end
 
